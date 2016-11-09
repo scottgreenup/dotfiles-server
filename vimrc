@@ -65,9 +65,6 @@ set foldmethod=indent
 noremap <space> za
 
 syntax enable
-let base16colorspace=256
-set background=dark
-colorscheme base16-tomorrow
 
 au VimResized * exe "normal! \<c-w>="
 
